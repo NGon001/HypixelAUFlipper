@@ -28,3 +28,11 @@ This program helps you find profitable Hypixel auctions by tracking and analyzin
     ```c++
     std::string hypixelapikey = "HYPIXEL_API_KEY"; // Replace with your actual Hypixel API key
     ```
+
+### Example Query
+
+You can customize the query to find auctions that meet specific criteria, such as a certain rarity or level, etc... Below is an example of how to query for Legendary pets with level 0:
+
+```c++
+// Example query to find Legendary pets with level 0
+std::string query = "?query[Rarity]=LEGENDARY&query[PetLevel]=0";

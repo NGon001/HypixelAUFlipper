@@ -635,7 +635,7 @@ void MainAlgo() {
 
                     std::cout << "----------------------------------------" << std::endl;
                     CopyToClipboard("/viewauction " + auction.uuid);
-                    playSound(L"C:\\Users\\1\\source\\repos\\HypixelSkyblockFlipper\\HypixelSkyblockFlipper\\news-ting-6832.wav");
+                    playSound(L"news-ting-6832.wav");
 
 
                     //uncomment if you want full automatic trade (but it is banneble by hypixel rules);

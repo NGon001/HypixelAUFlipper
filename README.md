@@ -13,6 +13,18 @@ This program helps you find profitable Hypixel auctions by tracking and analyzin
 - Calculates average and lowest bin prices.
 - Displays auction information such as item tags, starting bids, item tiers, and more.
 
+## Libraries Used
+The following libraries were used in the development of this project:
+- **cpp-base64-2.rc.08** 
+- **curl** 
+- **json/include/nlohmann** 
+- **libiconv**
+
+## APIs
+This project was built using:
+- **Coflnet API** for market data analysis.
+- **Hypixel API** for fetching auction data.
+
 ## Requirements
 - Hypixel API Key (You can obtain one by logging into Hypixel and typing `/api new` in the chat).
 - C++ compiler.
